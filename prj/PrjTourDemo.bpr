@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="..\_out\TourDemo.exe"/>
+    <OBJFILES value="..\_tmp\PrjTourDemo.obj ..\_tmp\LoginForm.obj ..\_tmp\TripDiagramForm.obj 
+      ..\_tmp\AboutForm.obj ..\_tmp\TourTool.obj ..\_tmp\VCanvas.obj 
+      ..\_tmp\TripStepDataTimeInfoForm.obj ..\_tmp\FieldDef.obj 
+      ..\_tmp\ErrorMessageDialogForm.obj ..\_tmp\MessageModuleForm.obj 
+      ..\_tmp\TripDiagramOptionsForm.obj ..\_tmp\TripDiagramPrinter.obj 
+      ..\_tmp\TripSwitchDialogForm.obj ..\_tmp\TripTimetableForm.obj 
+      ..\_tmp\TripTimetableInfoForm.obj 
+      ..\_tmp\TripTimetableRecalcBySpeedForm.obj 
+      ..\_tmp\TripTourMoveDialogForm.obj ..\_tmp\TripTourCopyDialogForm.obj 
+      ..\_tmp\TourTime.obj ..\_tmp\TourData.obj ..\_tmp\TourDataSF.obj 
+      ..\_tmp\TourDataCA.obj ..\_tmp\TourDataCU.obj 
+      ..\_tmp\TripDiagramChangesForm.obj ..\_tmp\SimpleProcessForm.obj 
+      ..\_tmp\TourProtect.obj ..\_tmp\SimpleDataSetViewForm.obj 
+      ..\_tmp\TourDataDM.obj ..\_tmp\TourDemoData.obj ..\_tmp\MainFrame.obj 
+      ..\_tmp\SimpleTourDataSetViewForm.obj ..\_tmp\RepStopInfoGenerator.obj 
+      ..\_tmp\RepPreViewForm.obj ..\_tmp\RepTripInfoGenerator.obj 
+      ..\_tmp\SimpleStopDataSetViewForm.obj"/>
+    <RESFILES value="PrjTourDemo.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ..\mainlib\src\LoginForm.dfm 
+      ..\graphlib\src\TripDiagramForm.dfm ..\mainlib\src\AboutForm.dfm 
+      ..\toollib\src\TripStepDataTimeInfoForm.dfm 
+      ..\toollib\src\ErrorMessageDialogForm.dfm 
+      ..\mainlib\src\MessageModuleForm.dfm 
+      ..\graphlib\src\TripDiagramOptionsForm.dfm 
+      ..\toollib\src\TripSwitchDialogForm.dfm 
+      ..\toollib\src\TripTimetableForm.dfm 
+      ..\toollib\src\TripTimetableInfoForm.dfm 
+      ..\toollib\src\TripTimetableRecalcBySpeedForm.dfm 
+      ..\toollib\src\TripTourMoveDialogForm.dfm 
+      ..\toollib\src\TripTourCopyDialogForm.dfm 
+      ..\graphlib\src\TripDiagramChangesForm.dfm 
+      ..\reflib\src\SimpleProcessForm.dfm 
+      ..\toollib\src\SimpleDataSetViewForm.dfm ..\mainlib\src\MainFrame.dfm 
+      ..\toollib\src\SimpleTourDataSetViewForm.dfm 
+      ..\replib\src\RepPreViewForm.dfm 
+      ..\toollib\src\SimpleStopDataSetViewForm.dfm"/>
+    <LIBFILES value="..\_lib\RxLib\lib\Rxdb5.lib ..\_lib\RxLib\lib\Dclrxbd5.lib 
+      ..\_lib\RxLib\lib\Dclrxdb5.lib ..\_lib\RxLib\lib\Rxbde5.lib 
+      ..\_lib\RxLib\lib\Rxctl5.lib ..\_lib\RxLib\lib\Dclrx5.lib"/>
+    <LIBRARIES value="QRPT50.lib VADOPackage.lib VPackage.lib VCLX50.lib VCLBDE50.lib 
+      VCLADO50.lib VCLDB50.lib VCL50.lib"/>
+    <SPARELIBS value="VCL50.lib VCLDB50.lib VCLADO50.lib VCLBDE50.lib VCLX50.lib VPackage.lib 
+      VADOPackage.lib QRPT50.lib"/>
+    <PACKAGES value="VCL50.bpi VCLX50.bpi bcbsmp50.bpi VCLDB50.bpi VCLADO50.bpi ibsmp50.bpi 
+      VCLBDE50.bpi VCLDBX50.bpi QRPT50.bpi TEEUI50.bpi TEEDB50.bpi TEE50.bpi 
+      DSS50.bpi TEEQR50.bpi VCLIB50.bpi VCLMID50.bpi VCLIE50.bpi INETDB50.bpi 
+      INET50.bpi NMFAST50.bpi WEBMID50.bpi bcbie50.bpi dclocx50.bpi 
+      bcb2kaxserver50.bpi VPackage.bpi"/>
+    <PATHCPP value=".;..\mainlib\src;..\graphlib\src;..\toollib\src;..\datalib;..\reflib\src;..\replib\src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="TOURDATABASEMODEADO;TOUR_LINKBASE_MODE;TOUR_DEMO_MODE"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="PrjTourDemo.cpp"/>
+    <INCLUDEPATH value="..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Projects\Bpl"/>
+    <LIBPATH value="..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Bpl"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\datalib -I..\..\VPackage\STDCtrlLib\src 
+      -I..\..\vpackage\dbctrllib\src -I..\replib\src -I..\vpackage\dbctrllib\src 
+      -I..\toollib\src -I..\graphlib\src -I..\tripformlib\src 
+      -I..\_lib\RxLib\Inc -I..\_lib\VPackage\Inc -I..\reflib\src -I..\mainlib\src 
+      -I..\toollib -I..\mainlib -I..\reflib -I$(BCB)\include 
+      -I$(BCB)\include\vcl -I$(BCB)\Projects\Bpl -src_suffix cpp 
+      -DTOURDATABASEMODEADO -DTOUR_LINKBASE_MODE -DTOUR_DEMO_MODE -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-N2..\_tmp -N0..\_tmp -$Y- -$L- -$D- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-I..\_tmp -D&quot;&quot; -aa -Tpe -x -Gn"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+
+[Excluded Packages]
+$(BCB)\Bin\dclite50.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=24
+Item0=..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Projects\Bpl
+Item1=..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item2=e:\Program Files\Borland\CBuilder5\Projects\;..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item3=e:\Program Files\Borland\CBuilder5\Projects;..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\Program Files\Borland\CBuilder5\Projects\;..\datalib;..\..\VPackage\STDCtrlLib\src;e:\Program Files\Borland\CBuilder5\Projects\;..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects\;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item5=C:\Program Files\Borland\CBuilder5\Projects;..\datalib;..\..\VPackage\STDCtrlLib\src;e:\Program Files\Borland\CBuilder5\Projects;..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects\;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item6=..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects\;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item7=..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item8=..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item9=..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item10=e:\Program Files\Borland\CBuilder5\Projects;..\vpackage\dbctrllib\src;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item11=..\..\vpackage\dbctrllib\src;E:\Program Files\Borland\CBuilder5\Projects;..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item12=..\toollib\src;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item13=..\toollib\src;E:\Program Files\Borland\CBuilder5\Projects;..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item14=..\graphlib\src;..\tripformlib\src;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item15=..\graphlib\src;..\tripformlib\src;E:\Program Files\Borland\CBuilder5\Projects\;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item16=E:\Program Files\Borland\CBuilder5\Projects;..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item17=..\_lib\RxLib\Inc;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item18=..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item19=..\reflib\src;..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item20=..\mainlib\src;..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item21=..\toollib;..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item22=..\mainlib;..\reflib;$(BCB)\include;$(BCB)\include\vcl
+Item23=..\reflib;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=22
+Item0=..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Bpl
+Item1=..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=e:\Program Files\Borland\CBuilder5\Projects\;..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=e:\Program Files\Borland\CBuilder5\Projects;..\datalib;..\..\VPackage\STDCtrlLib\src;..\..\vpackage\dbctrllib\src;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\Program Files\Borland\CBuilder5\Projects\;..\datalib;..\..\VPackage\STDCtrlLib\src;e:\Program Files\Borland\CBuilder5\Projects\;..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects\;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=C:\Program Files\Borland\CBuilder5\Projects;..\datalib;..\..\VPackage\STDCtrlLib\src;e:\Program Files\Borland\CBuilder5\Projects;..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects\;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects\;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item7=..\..\vpackage\dbctrllib\src;F:\builder\CBuilder5\Projects;..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..\replib\src;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item9=..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item10=e:\Program Files\Borland\CBuilder5\Projects;..\vpackage\dbctrllib\src;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item11=..\..\vpackage\dbctrllib\src;E:\Program Files\Borland\CBuilder5\Projects;..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item12=..\toollib\src;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item13=..\toollib\src;E:\Program Files\Borland\CBuilder5\Projects;..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item14=..\_lib\RxLib\Lib;..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item15=..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item16=..\graphlib\src;..\tripformlib\src;..\toollib;..\_lib\VPackage\Inc;E:\Program Files\Borland\CBuilder5\Projects\;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item17=..\_lib\VPackage\Inc;E:\Program Files\Borland\CBuilder5\Projects;..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item18=..\reflib\src;..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item19=..\mainlib\src;..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item20=..\mainlib;..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item21=..\reflib;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=7
+Item0=TOURDATABASEMODEADO;TOUR_LINKBASE_MODE;TOUR_DEMO_MODE
+Item1=TOURDATABASEMODEADO;_DEBUG;TOUR_LINKBASE_MODE;TOUR_DEMO_MODE
+Item2=TOURDATABASEMODEADO;_DEBUG;TOUR_LINKBASE_MODE
+Item3=TOURDATABASEMODEADO;_DEBUG
+Item4=TOURDATABASEMODEADO
+Item5=_DEBUG;TOURDATABASEMODEADO
+Item6=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=2
+Item0=..\_tmp
+Item1=..\_tmp\
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=..\_out\
+Item1=..\_out
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=/editbase
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
